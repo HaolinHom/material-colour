@@ -18,7 +18,7 @@ import brown from './color/brown';
 import gray from './color/gray';
 import blueGray from './color/blueGray';
 
-export default {
+export {
   red,
   pink,
   purple,

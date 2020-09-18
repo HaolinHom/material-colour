@@ -1,9 +1,9 @@
 {
   "name": "material-colour",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "Easy to use material design color.",
   "main": "lib/index.js",
-  "module": "src/index.js",
+  "module": "index.js",
   "unpkg": "dist/material.colour.js",
   "files": [
     "lib",

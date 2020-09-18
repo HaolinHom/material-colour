@@ -1,8 +1,8 @@
 (function (global, factory) {
-  typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-  typeof define === 'function' && define.amd ? define(factory) :
-  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, global.colour = factory());
-}(this, (function () { 'use strict';
+  typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+  typeof define === 'function' && define.amd ? define(['exports'], factory) :
+  (global = typeof globalThis !== 'undefined' ? globalThis : global || self, factory(global.colour = {}));
+}(this, (function (exports) { 'use strict';
 
   var red = {
     '50': '#FFEBEE',
@@ -315,28 +315,26 @@
     '900': '#263238',
   };
 
-  var index = {
-    red,
-    pink,
-    purple,
-    deepPurple,
-    indigo,
-    blue,
-    lightBlue,
-    cyan,
-    teal,
-    green,
-    lightGreen,
-    lime,
-    yellow,
-    amber,
-    orange,
-    deepOrange,
-    brown,
-    gray,
-    blueGray,
-  };
+  exports.amber = amber;
+  exports.blue = blue;
+  exports.blueGray = blueGray;
+  exports.brown = brown;
+  exports.cyan = cyan;
+  exports.deepOrange = deepOrange;
+  exports.deepPurple = deepPurple;
+  exports.gray = gray;
+  exports.green = green;
+  exports.indigo = indigo;
+  exports.lightBlue = lightBlue;
+  exports.lightGreen = lightGreen;
+  exports.lime = lime;
+  exports.orange = orange;
+  exports.pink = pink;
+  exports.purple = purple;
+  exports.red = red;
+  exports.teal = teal;
+  exports.yellow = yellow;
 
-  return index;
+  Object.defineProperty(exports, '__esModule', { value: true });
 
 })));
