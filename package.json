@@ -1,6 +1,6 @@
 {
   "name": "material-colour",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "description": "Easy to use material design color.",
   "main": "lib/index.js",
   "module": "src/index.js",
