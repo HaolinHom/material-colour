@@ -1,6 +1,6 @@
 {
   "name": "material-colour",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "Easy to use material design color.",
   "main": "lib/index.js",
   "module": "index.js",
@@ -8,7 +8,8 @@
   "files": [
     "lib",
     "src",
-    "dist"
+    "dist",
+    "index.js"
   ],
   "scripts": {
     "build": "npx rollup -c",
