@@ -1,41 +1,19 @@
-import red from './color/red';
-import pink from './color/pink';
-import purple from './color/purple';
-import deepPurple from './color/deepPurple';
-import indigo from './color/indigo';
-import blue from './color/blue';
-import lightBlue from './color/lightBlue';
-import cyan from './color/cyan';
-import teal from './color/teal';
-import green from './color/green';
-import lightGreen from './color/lightGreen';
-import lime from './color/lime';
-import yellow from './color/yellow';
-import amber from './color/amber';
-import orange from './color/orange';
-import deepOrange from './color/deepOrange';
-import brown from './color/brown';
-import gray from './color/gray';
-import blueGray from './color/blueGray';
-
-export {
-  red,
-  pink,
-  purple,
-  deepPurple,
-  indigo,
-  blue,
-  lightBlue,
-  cyan,
-  teal,
-  green,
-  lightGreen,
-  lime,
-  yellow,
-  amber,
-  orange,
-  deepOrange,
-  brown,
-  gray,
-  blueGray,
-};
+export { default as red } from './color/red';
+export { default as pink } from './color/pink';
+export { default as purple } from './color/purple';
+export { default as deepPurple } from './color/deepPurple';
+export { default as indigo } from './color/indigo';
+export { default as blue } from './color/blue';
+export { default as lightBlue } from './color/lightBlue';
+export { default as cyan } from './color/cyan';
+export { default as teal } from './color/teal';
+export { default as green } from './color/green';
+export { default as lightGreen } from './color/lightGreen';
+export { default as lime } from './color/lime';
+export { default as yellow } from './color/yellow';
+export { default as amber } from './color/amber';
+export { default as orange } from './color/orange';
+export { default as deepOrange } from './color/deepOrange';
+export { default as brown } from './color/brown';
+export { default as gray } from './color/gray';
+export { default as blueGray } from './color/blueGray';
